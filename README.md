@@ -5,7 +5,7 @@
 - In Termux, `pkg install termux-api`
 - Open Termux and run the following single command to set up Open Interpreter:
   ```bash
-  pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/Arrendy/open-interpreter-termux && cd open-interpreter-termux && sh setup.sh
+  pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/Some19ice/open-interpreter-termux && cd open-interpreter-termux && sh setup.sh
   ```
 - Run `termux-setup-storage` twice to grant storage permissions.
 - Set your OpenAI API key: `export OPENAI_API_KEY=<apikey>`
